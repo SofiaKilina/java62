@@ -1,0 +1,41 @@
+.flex-container {
+    width: 600px;
+    height: 450px;
+    background-color: pink;
+    margin: 0 auto;
+    display: flex;
+    /*flex-direction: column;*/
+}
+/*
+width -> flex-basis -> max-width
+ */
+.item {
+    height: 150px;
+    flex-basis: 240px;
+    width: 250px;
+    max-width: 230px;
+    /*width: 150px;*/
+    font-size: 3em;
+    text-align: center;
+    color: whitesmoke;
+    /*flex-grow: 1;*/
+    flex-shrink: 0;
+}
+
+.red {
+    background-color: red;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+}
+
+.green {
+    background-color: green;
+    /*flex-grow: 2;*/
+    /*flex-shrink: 2;*/
+}
+
+.blue {
+    background-color: blue;
+    /*flex-grow: 3;*/
+    /*flex-shrink: 3;*/
+}

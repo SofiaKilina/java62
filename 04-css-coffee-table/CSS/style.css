@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+.header {
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    background-size: cover;
+    /*padding-top: 1px;*/
+    /*border-top: 1px solid  transparent;*/
+    /*padding-top: 135px;*/
+    /*box-sizing: border-box;*/
+}
+
+.header > h1 {
+    font-size: 100px;
+    font-family: "Covered By Your Grace", cursive;
+    color: rgba(3, 155, 100, 0.75);
+    text-align: center;
+    padding-top: 135px;
+    /*margin-top: 134px;*/
+}
+
+.main > table {
+    padding: 0;
+}
+
+.main td {
+    margin: 100px 0;
+    border-bottom: 1px solid #e4bb97;
+    padding-bottom: 60px;
+}
+
+.main td > h2 {
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #aa8eb8;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main td > p {
+    color: #454;
+    font-weight: 500;
+    padding: 0 5px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+}
+
+.main td > a:link {
+    color: #214e34;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.main td > a:visited {
+    color: violet;
+}
+
+.main td > a:hover {
+    color: red;
+}
+
+.main td > a:active {
+    color: yellow;
+}

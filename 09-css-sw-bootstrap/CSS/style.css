@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+:root {
+    --color-main: #eedb00;
+    --bg-color-grey: rgba(60, 69, 67, 0.6);
+}
+
+body {
+    font-family: 'Poller One', sans-serif;
+    background-image: url("../Images/sky.jpg");
+    color: var(--color-main);
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: var(--bg-color-grey);
+}
+
+/* Header */
+
+/* Main */
+
+main > .float-start {
+    box-shadow: 0.6rem 0.6rem 0.6rem var(--bg-color-grey);
+}
+
+.far-galaxy {
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 1rem;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 1rem;
+}
+
+/* Footer */
+
+footer {
+    height: 5rem;
+}
+
+/* Customizing */
+
+.btn-danger {
+    background-color: rgba(204, 3, 35, 0.5);
+    color: var(--color-main);
+}

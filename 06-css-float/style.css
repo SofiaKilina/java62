@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+div {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.header, .footer {
+    height: 50px;
+}
+
+.header {
+    background-color: blue;
+}
+
+.footer {
+    background-color: pink;
+    clear: both;
+}
+
+.left1 {
+    height: 300px;
+    width: 150px;
+    background-color: green;
+    float: left;
+}
+
+.right1 {
+    height: 300px;
+    width: 650px;
+    background-color: orange;
+    float: right;
+}
+
+.left2 {
+    height: 300px;
+    width: 150px;
+    background-color: darkred;
+    float: left;
+}
+
+.right2 {
+    height: 100px;
+    width: 350px;
+    background-color: violet;
+    float: right;
+}
+
+.right3 {
+    height: 300px;
+    width: 750px;
+    background-color: deepskyblue;
+    float: right;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form name="myForm" action="#" method="get">
+    <fieldset>
+        <legend>Personal data</legend>
+        <p>
+            <label for="fName">First Name</label>
+            <input id="fName" type="text" name="firstName" placeholder="Peter">
+        </p>
+        <p>
+            <label>Last Name
+                <input type="text" name="lastName" placeholder="Parker">
+            </label>
+        </p>
+        <p>
+            <label>Email
+                <input type="email" name="email" placeholder="peter@gmail.com" required>
+            </label>
+        </p>
+        <p>
+            <label>Password
+                <input type="password" name="password">
+            </label>
+        </p>
+        <p>
+            Gender
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other...
+            </label>
+        </p>
+        <p>
+            Hobby
+            <label>
+                <input type="checkbox" name="vodka">
+                Vodka
+            </label>
+            <label>
+                <input type="checkbox" name="cannabis">
+                Cannabis
+            </label>
+            <label>
+                <input type="checkbox" name="sex">
+                Sex
+            </label>
+        </p>
+        <p>
+            <select name="country">
+                <option value="il">Israel</option>
+                <option value="us">United States</option>
+                <option value="uk">Ukraine</option>
+            </select>
+        </p>
+        <p>
+            <label>Birthdate
+                <input type="date" name="birthdate">
+            </label>
+        </p>
+        <p>
+            <label>Comment
+               <textarea name="comment" cols="30" rows="20"></textarea>
+            </label>
+        </p>
+    </fieldset>
+    <button type="submit">Send</button>
+    <button type="reset">Clear</button>
+    <button type="button">Next</button>
+    <button type="button">Prev</button>
+</form>
+
+</body>
+</html>
