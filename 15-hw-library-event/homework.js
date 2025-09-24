@@ -20,9 +20,25 @@ addBook.onclick = function () {
     const book = new Book(isbn, title, author, year);
     library.push(book);
 
-    const result = document.getElementById('result');
     const li = document.createElement('li');
-    li.innerText = book.toString();
+    li.innerText = book.toString() + " ";
+
+    const delBtn = document.createElement('button');
+    delBtn.innerText = "Delete";
+    delBtn.addEventListener('click', () => {
+
+
+
+        const idx = findBook(library, isbn);
+        if (idx !== -1) {
+            library.splice(idx, 1);
+        }
+
+
+        li.remove();
+    });
+
+    li.appendChild(delBtn);
     result.appendChild(li);
 
     document.getElementById('isbn').value = "";
